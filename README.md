@@ -12,16 +12,16 @@
 - 레지스트리의 AutoShareServer가 1이거나 기본 공유가 존재하는 경우
 
 ## batch 파일 실행 후 진단 결과.
-- ![0](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/2aea9771-a3e6-44ee-af7c-7731da50031a)
+> ![0](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/2aea9771-a3e6-44ee-af7c-7731da50031a)
 
 ## 대처 방안
 - 시작> 실행> FSMGMT.MSC> Share> Default share 항목 선택> 마우스 우클릭> 공유 중지
-- ![1](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/8c0c5779-5a6d-41a5-9d8f-f1926803f5ca)
+> ![1](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/8c0c5779-5a6d-41a5-9d8f-f1926803f5ca)
 - REGEDIT에서 "HKLM\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters\AutoShareS erver” 값 0으로 변경.
-- ![2](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/7a2c1e4b-1236-4819-9b75-d15fbef069f3)
+> ![2](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/7a2c1e4b-1236-4819-9b75-d15fbef069f3)
 
 ## 대처 방안 후 batch 파일 싱행 후 진단 결과
-- ![3](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/d058572b-7850-494a-b6f4-8c9ec2077265)
+> ![3](https://github.com/hanmin0512/batch_SRV-018/assets/37041208/d058572b-7850-494a-b6f4-8c9ec2077265)
 
 
 
